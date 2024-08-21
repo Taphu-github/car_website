@@ -1,0 +1,56 @@
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-image: linear-gradient(to top, red,silver,black);
+    color: black;
+    
+}
+section{
+    background-image:url(../images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin-right: 20px;
+}
+ nav ul li a{
+    color:black;
+    text-decoration: none;
+    font-size: 30px;
+    text-shadow: 2px 2px red;
+ }
+
+ .logo img{
+    width: 200px;
+    height: 200px;
+ }
+
+ .main{
+    padding: 50px;
+    text-align:center;
+ }
+
+ p{
+    text-align: left;
+    font-size: larger;
+    
+ }
+
+ footer{
+    background-color:silver;
+    padding: 20px;
+    text-align: center;
+ }
+
+ label{
+   padding:20px;
+   display: block;
+ }

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Bebas+Neue&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+@font-face{
+    font-family:Radio Canada Big;
+}
+
+/* =========== CSS VARIABLES =============== */
+:root{
+    --header-height:3.5rem;
+
+    /* ======= Colors ======== */
+    --first-color:yellow;
+    --first-color-alt:green;
+    --title-color:beige;
+    --text-color:grey;
+    --white-color:white;
+    --body-color:black;
+    --container-color:blue;
+
+    /* ======== Fonts and Typography ========== */
+    --text-font: "Poppins", sans-serif;
+    --title-font: "Ubuntu", sans-serif;
+    --biggest-font-size: 2rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+
+    /* =========== Font Weight ============ */
+    --font-lighter: 300;
+    --font-light: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
+    /* ========= Z index ============= */
+    --z-tooltip: 10;
+    --z-fixed: 100;
+}
+
+/* Responsive Typography */
+@media screen and (min-width: 96px) {
+    :root {
+        --h1-font-size: 2.25rem;
+        --h2-font-size: 1.5rem;
+        --h3-font-size: 1.25rem;
+        --normal-font-size: 1rem;
+        --small-font-size: .875rem;
+        --smaller-font-size: .813rem;
+    }
+}
